@@ -1,7 +1,7 @@
 import { Text, View } from 'react-native';
 
-import Button from '../../../shared/button/button';
-import Input from '../../../shared/input/input';
+import Button from '../../../shared/componentes/button/button';
+import Input from '../../../shared/componentes/input/input';
 import { ContainerLogin } from './styles/login-style';
 
 const Login = () => {
@@ -11,7 +11,7 @@ const Login = () => {
   return (
     <View>
       <ContainerLogin>
-        <Text>Tela de Login</Text>
+        <Text></Text>
         <Input />
         <Button margin="16px" title="Entrar" onPress={handleOnPress} />
       </ContainerLogin>

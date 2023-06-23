@@ -10,6 +10,6 @@ export const ButtonContainer = styled.TouchableOpacity<ButtonContainerProps>`
   border-radius: 4px;
   justify-content: center;
   align-items: center;
-  background-color: gray;
+  background-color: blue;
   ${(props) => (props.margin ? `margin: ${props.margin};` : '')}
 `;
